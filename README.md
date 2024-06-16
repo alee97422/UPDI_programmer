@@ -1,4 +1,4 @@
-# UPDI programmer web upp
+# UPDI programmer web app
 
 web app to simplify programming UPDI devices 
 this web app will still need continued work but will curently push firmware to the attiny412 
