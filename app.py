@@ -11,7 +11,14 @@ def run_command(command):
 
 # Streamlit UI Components
 st.title('UPDI Device Programmer')
+# need to create a drop down to select all supported devices 
 device_name = "attiny412"  # Can be adjusted or made dynamic
+
+
+
+# need to add options to change different perameters with in pymcuprog
+
+
 
 # COM Port Selection
 com_ports = list_serial_ports()
