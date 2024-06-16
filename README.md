@@ -1,7 +1,12 @@
 
 # UPDI Programmer Web App
+<img src="images/UPDIPROGRAMMER.jpg" width="500" height="500">
 
-This web app simplifies programming UPDI devices. While still under development, it currently supports pushing firmware to the ATtiny412 if you provide a hex file compiled from the Arduino IDE.
+
+
+This web app simplifies programming UPDI devices. You are welcome to use an compatible UPDI device but i have created one myself.
+
+While still under development, it currently supports pushing firmware to the ATtiny412 if you provide a hex file compiled from the Arduino IDE.
 
 I do know that there is good support for this device on Arduino but i like building my own tools and this feels like a little easier for on the go programming if access to arduino tools is limited 
 
