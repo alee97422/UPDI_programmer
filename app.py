@@ -1,7 +1,6 @@
 import streamlit as st
 import serial.tools.list_ports
 import subprocess
-
 def list_serial_ports():
     ports = serial.tools.list_ports.comports()
     return [port.device for port in ports]
