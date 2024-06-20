@@ -12,8 +12,10 @@ def run_command(command):
 # Streamlit UI Components
 st.title('UPDI Device Programmer')
 # need to create a drop down to select all supported devices 
-device_name = "attiny412"  # Can be adjusted or made dynamic
+#device_name = "attiny412"  # Can be adjusted or made dynamic
 
+# Device Name Input
+device_name = st.text_input('Enter Device Name:', 'attiny412')
 
 
 # need to add options to change different perameters with in pymcuprog
